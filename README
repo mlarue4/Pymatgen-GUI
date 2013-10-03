@@ -1,0 +1,9 @@
+The purpose of this GUI is to provide a basic platform that pymatgen users can build upon
+for their own custom GUI applications using pymatgen.
+
+To install and run using pymatgen, copy pymatgenGUI to pymatgen
+scripts directory in the development version.  Then change
+the path in line 86 to point to your pymatgen scripts directory where matgenie is.
+Then if your install is in a different location than the scripts directory, change lines 
+206, 760 and 766 to point to the directories where you want the default open file command
+to point to.
